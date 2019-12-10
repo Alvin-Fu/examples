@@ -12,7 +12,7 @@ import (
 
 func main() {
 	var src source.Source
-	withContext := false
+	withContext := true
 
 	// setup app
 	app := cmd.App()
